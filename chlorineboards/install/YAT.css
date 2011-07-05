@@ -1,0 +1,134 @@
+/*
+ YAT - The official ClB template
+*/
+
+/* general stuff*/
+body {
+	background-color : #50A6C2;
+	font-family : Tahoma, Verdana;
+	color : #000000;
+}
+
+a, a:link, a:active, a:visited {
+	text-decoration : none;
+	color : #4F94CD;
+}
+
+a:hover {
+	text-decoration : underline;
+	color : #7EC0EE;
+}
+
+input,textarea, select, checkbox, radiobutton, file {
+	font : normal 11px Tahoma, Verdana;
+	color : #000000;
+	background-color : #73B1B7;
+	border-color : #68838B;
+	border-width : 1px;
+}
+
+input:hover,textarea:hover, select:hover, checkbox:hover, radiobutton:hover, file:hover {
+	background-color : #B0E0E6;
+}
+
+/*a:visited {
+	color : #9FB6CD;
+}*/
+
+/* different text sizes */
+.genhuge { font-size : 16px; }
+.genbig { font-size : 14px; }
+.genmed { font-size : 13px; }
+.gen { font-size : 12px; }
+.gensmall { font-size : 11px; }
+.gentiny { font-size : 10px; }
+
+
+/* some table types */
+.bodyline {
+	background-color : #ADD8E6;
+	border-top-color : #236B8E;
+	border-left-color : #236B8E;
+	border-right-color : #00B2EE; 
+	border-bottom-color :  #00B2EE;
+	border-style : solid;
+	border-width : 2px;
+}
+
+.thHead {
+	background-color : #6CA6CD;
+	border-top-color : #7EC0EE;
+	border-left-color : #7EC0EE;
+	border-right-color : #4A708B;
+	border-bottom-color : #4A708B;
+	border-style : solid;
+	border-width : 2px;
+	font-size : 14px;
+	color : #FF9955;
+	font-weight : bold;
+}
+
+.catHead {
+	background-color : #9FB6CD;
+	border-top-color : #B4CDCD;
+	border-left-color : #B4CDCD;
+	border-right-color : #668B8B;
+	border-bottom-color : #668B8B;
+	border-style : solid;
+	border-width : 2px;
+	font-size : 15px;
+	color : #EE8833;
+	font-weight : bold;
+}
+
+.forumtable {
+	border-top-color : #A4D3EE;
+	border-left-color : #A4D3EE;
+	border-right-color : #8DB6CD;
+	border-bottom-color :  #8DB6CD;
+	border-style : solid;
+	border-width : 2px;
+}
+
+.header {
+	border-top-color : #8DB6CD;
+	border-left-color : #8DB6CD;
+	border-right-color : #A4D3EE;
+	border-bottom-color : #A4D3EE;
+	border-style : solid;
+	border-width : 2px;
+}
+
+.row {
+	background-color : #B0E2FF;
+}
+
+.row:hover {
+	background-color : #9DD1EF;
+}
+
+.forumtitle {
+	font-weight : bold;
+	font-size : 16px;
+}
+
+.threadtitle {
+	font-weight : bold;
+	font-size : 14px;
+}
+
+.col1, .col1_click {
+	border-color : #FFFFFF;
+	border-style : solid;
+	border-width : 1px;
+}
+
+.col1_click:hover {
+	background-color : #A0C0DA;
+}
+
+.statistics {
+	border-color : #000000;
+	border-style : solid;
+	border-width : 1px;
+}
