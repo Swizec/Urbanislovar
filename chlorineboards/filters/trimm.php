@@ -3,7 +3,7 @@
 if ( !defined( 'RUNNING_CL' ) )
 {
 	ob_clean();
-	die( 'You bastard, this is not for you' );
+	die( 'You fool, this is not for you' );
 }
 
 class trimm
